@@ -1,0 +1,76 @@
+/*this is a comment*/
+*{margin: 0;
+  padding: 0
+  box-sizing: border-box;
+  font-size: 16px;
+  text-decoration: none;}
+
+body{
+    background-color: #fdda00;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.big {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+#special {
+  background-image: url(../img/Hello.jpg);
+  background-size: cover;
+}
+#special2 {
+  background-image: url(../img/h2.jpg);
+  background-size: cover;
+}
+#special3 {
+  background-image: url(../img/photo-travel.jpeg);
+  background-size: cover;
+}
+/*typogrpahy*/
+h1 {
+  font-size: 120px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+}
+p {
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.copy {
+  width: 20px;
+  margin-top: 10px;
+}
+.content {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+}
+
+.logo {
+  width: 20px;
+  height:10px;
+}
+nav {
+  margin-left: 75%;
+}
+a {
+  line-height: 40px;
+  color: white;
+  margin-right: 10px;
+}
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+a {
+  transition: all 3s;
+}
+::-webkit-scrollbar{
+  display: none
+}
